@@ -29,6 +29,8 @@ else
 	}
 }
 
+console.log(WS_SECRET);
+
 var banned = require('./lib/utils/config').banned;
 
 // Init http server

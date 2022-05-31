@@ -1,8 +1,8 @@
-FROM node:16.15.0
+FROM node:alpine
 COPY ./ /app
 WORKDIR /app
-
-ENV WS_SECRET ""
+ARG WS_SECRET
+ENV WS_SECRET=$WS_SECRET
 
 EXPOSE 3000
 
