@@ -15,6 +15,7 @@ jobs:
   push_to_docker_registry:
     name: Push Docker image to GHCR.IO
     runs-on: ubuntu-latest
+    environment: Production
     permissions:
       contents: read
       packages: write
