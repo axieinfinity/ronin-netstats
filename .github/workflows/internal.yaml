@@ -1,8 +1,9 @@
 name: Internal-Dockerize
 
 on:
-  push:
-    branches: [master]
+  release:
+    tag:
+    - 'v*.*.*-internal'
 
 env:
   REGISTRY: ghcr.io
