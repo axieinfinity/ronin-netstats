@@ -1,8 +1,8 @@
 name: Public-Dockerize
 
 on:
-  release:
-    tag:
+  push:
+    tags:
     - 'v*.*.*-public'
 
 env:
