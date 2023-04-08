@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_REPOSITORY: axieinfinity/in-ronin-netstat
+  IMAGE_REPOSITORY: axieinfinity/ronin-netstat
   DOCKER_FILE: Dockerfile
 jobs:
   push_to_docker_registry:
