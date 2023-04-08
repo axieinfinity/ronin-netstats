@@ -1,8 +1,9 @@
 name: Dockerize
 
 on:
-  push:
-    branches: [master]
+  release:
+    tag:
+    - 'v*.*.*-public'
 
 env:
   REGISTRY: ghcr.io
