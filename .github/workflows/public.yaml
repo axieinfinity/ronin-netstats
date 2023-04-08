@@ -1,4 +1,4 @@
-name: Dockerize
+name: Public-Dockerize
 
 on:
   release:
