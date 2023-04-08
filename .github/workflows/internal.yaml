@@ -1,8 +1,8 @@
 name: Internal-Dockerize
 
 on:
-  release:
-    tag:
+  push:
+    tags:
     - 'v*.*.*-internal'
 
 env:
